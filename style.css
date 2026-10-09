@@ -22,7 +22,13 @@ img{display:block;width:100%;max-width:36rem;height:auto;margin:0 auto}
 .qs li{margin:.55rem 0}
 .qs ul{list-style:none;padding-left:.3rem;margin:.25rem 0}
 details.reveal-box{margin:1rem auto 2.2rem;max-width:36rem;border:1px solid #8a93a3;border-radius:.6rem;padding:.2rem .9rem .6rem}
-details.reveal-box>summary{cursor:pointer;font-weight:bold;font-size:1.1rem;padding:.55rem 0}
+details.reveal-box{border:2px solid #2b7a4b;background:rgba(43,122,75,.07)}
+details.reveal-box>summary{cursor:pointer;font-weight:bold;font-size:1.15rem;padding:.7rem 0;color:#1f6b3f;list-style:none;text-align:center}
+details.reveal-box>summary::-webkit-details-marker{display:none}
+details.reveal-box>summary::before{content:"\25B6\00A0"}
+details.reveal-box[open]>summary::before{content:"\25BC\00A0"}
+.played{font-weight:bold;color:#1f6b3f;font-size:1rem}
+.quiz{border-top:3px solid #2b5aa5;padding-top:.6rem}
 .end{text-align:center;font-weight:bold;font-size:1.3rem;margin:1.5rem 0}
 .btn{display:inline-block;padding:.55rem 1.1rem;border-radius:.5rem;background:#2b5aa5;color:#fff;text-decoration:none;font-weight:bold}
 .center{text-align:center}
@@ -35,5 +41,6 @@ body{background:#15171b;color:#e7e7e7}
 a{color:#8fb8ff}
 .hdr,.cap,.sub{color:#aab0bb}
 ol.games li{border-color:#3a3f48}
-details.reveal-box{border-color:#4a505b}
+details.reveal-box{border-color:#4aa873}
+details.reveal-box>summary,.played{color:#7fd6a3}
 }
