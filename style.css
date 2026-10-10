@@ -1,4 +1,4 @@
-@font-face{font-family:"ChessFig";src:url("DejaVuSans.ttf");}
+@font-face{font-family:"ChessFig";src:url("fonts/DejaVuSans.ttf");}
 :root{color-scheme:light dark}
 *{box-sizing:border-box}
 body{margin:0;font-family:Georgia,"Times New Roman",serif;line-height:1.55;font-size:1.05rem;background:#fff;color:#1b1b1b}
@@ -44,3 +44,6 @@ ol.games li{border-color:#3a3f48}
 details.reveal-box{border-color:#4aa873}
 details.reveal-box>summary,.played{color:#7fd6a3}
 }
+ol.games li.soon{opacity:.6}
+ol.games .name{font-size:1.2rem;font-weight:bold}
+ol.games{list-style:none}
