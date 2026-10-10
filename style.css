@@ -1,4 +1,4 @@
-@font-face{font-family:"ChessFig";src:url("fonts/DejaVuSans.ttf");}
+@font-face{font-family:"ChessFig";src:url("my-games/DejaVuSans.ttf");}
 :root{color-scheme:light dark}
 *{box-sizing:border-box}
 body{margin:0;font-family:Georgia,"Times New Roman",serif;line-height:1.55;font-size:1.05rem;background:#fff;color:#1b1b1b}
