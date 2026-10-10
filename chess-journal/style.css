@@ -1,0 +1,60 @@
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;line-height:1.55;font-size:1.05rem;background:#fff;color:#1b1b1b}
+main{max-width:42rem;margin:0 auto;padding:1rem 1rem 3rem}
+a{color:#1a56b0}
+h1{text-align:center;font-size:1.8rem;line-height:1.2;margin:1.2rem 0 .3rem}
+.hdr{text-align:center;color:#444;margin:0 0 1.2rem}
+.lead{text-align:center;max-width:34rem;margin:1rem auto}
+.intro{margin:.8rem .3rem;font-style:italic}
+.pager{display:flex;justify-content:space-between;gap:1rem;margin:1rem 0;font-size:1rem}
+.start,.step,.quiz{text-align:center;margin:1.6rem 0}
+img{display:block;width:100%;max-width:36rem;height:auto;margin:0 auto}
+.cap{font-size:.88rem;color:#555;margin:.35rem 0}
+.moves{font-size:1.4rem;font-weight:bold;margin:.3rem 0 .5rem}
+.run{font-size:1.2rem;text-align:left;margin:.7rem 0}
+.note,.var{text-align:left;margin:.6rem .3rem}
+.vc{font-style:italic}
+.fig{font-family:"ChessFig","DejaVu Sans","Segoe UI Symbol","Apple Symbols",sans-serif;font-weight:normal}
+.quiz h2{font-size:1.35rem;margin:.2rem 0 .3rem}
+.qs{text-align:left;max-width:34rem;margin:1rem auto;padding-left:1.4rem}
+.qs li{margin:.55rem 0}
+.qs ul{list-style:none;padding-left:.3rem;margin:.25rem 0}
+details.reveal-box{margin:1rem auto 2.2rem;max-width:36rem;border:1px solid #8a93a3;border-radius:.6rem;padding:.2rem .9rem .6rem}
+details.reveal-box{border:2px solid #2b7a4b;background:rgba(43,122,75,.07)}
+details.reveal-box>summary{cursor:pointer;font-weight:bold;font-size:1.15rem;padding:.7rem 0;color:#1f6b3f;list-style:none;text-align:center}
+details.reveal-box>summary::-webkit-details-marker{display:none}
+details.reveal-box>summary::before{content:"\25B6\00A0"}
+details.reveal-box[open]>summary::before{content:"\25BC\00A0"}
+.played{font-weight:bold;color:#1f6b3f;font-size:1rem}
+.quiz{border-top:3px solid #2b5aa5;padding-top:.6rem}
+.end{text-align:center;font-weight:bold;font-size:1.3rem;margin:1.5rem 0}
+.btn{display:inline-block;padding:.55rem 1.1rem;border-radius:.5rem;background:#2b5aa5;color:#fff;text-decoration:none;font-weight:bold}
+.center{text-align:center}
+ol.games{list-style:none;padding:0;margin:1.5rem 0}
+ol.games li{border:1px solid #c5cad3;border-radius:.6rem;padding:.8rem 1rem;margin:.8rem 0}
+ol.games a{font-size:1.2rem;font-weight:bold;text-decoration:none}
+.sub{color:#555;font-size:.95rem}
+@media (prefers-color-scheme:dark){
+body{background:#15171b;color:#e7e7e7}
+a{color:#8fb8ff}
+.hdr,.cap,.sub{color:#aab0bb}
+ol.games li{border-color:#3a3f48}
+details.reveal-box{border-color:#4aa873}
+details.reveal-box>summary,.played{color:#7fd6a3}
+}
+
+.lead{max-width:36rem}
+.prose h1{text-align:left;font-size:1.7rem;border-bottom:1px solid #888;padding-bottom:.3rem}
+.prose .lead{text-align:left;margin-left:0;font-size:1.1rem}
+.callout{border:1px solid #888;border-radius:.5rem;padding:.7rem .9rem;margin:1.2rem 0;background:#f3f1eb;color:#1b1b1b}
+.phase{border-left:4px solid #2b5aa5;padding:.1rem .9rem;margin:1.2rem 0}
+.two-col{border-top:1px solid #888;border-bottom:1px solid #888;padding:.3rem .9rem;margin:1rem 0}
+.checklist{list-style-type:square}
+.steps li,.rules li{margin-bottom:.7rem}
+.closing{font-size:1.15rem;font-style:italic;margin-top:1.5rem}
+.diagram{margin:1.2rem 0;text-align:center;background:#fff;border-radius:.5rem;padding:.6rem}
+.diagram svg{width:100%;height:auto;display:block;max-width:none;margin:0}
+.cover{max-width:15rem;border-radius:.4rem;box-shadow:0 2px 10px rgba(0,0,0,.35)}
+@media (prefers-color-scheme:dark){.callout{background:#22252b;color:#e7e7e7;border-color:#4a505b}}
+ol.games li{padding:.5rem 1rem}
