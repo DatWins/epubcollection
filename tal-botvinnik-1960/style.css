@@ -50,3 +50,8 @@ img:not(.cover){width:min(100%,36rem,calc(100vh - 1.5rem));width:min(100%,36rem,
 img.cover{width:auto;max-width:100%;max-height:calc(100vh - 1.5rem);max-height:calc(100svh - 1.5rem)}
 /* long names (e.g. consultation games) wrap instead of pushing the page wider than the screen */
 ol.games li,.hdr,h1,.pager a{overflow-wrap:anywhere}
+/* phones: navigation links become easy-to-tap buttons */
+@media (max-width:700px){
+.pager{gap:.5rem;flex-wrap:wrap;align-items:center}
+.pager a,p.sub a[href="../index.html"]{display:inline-block;padding:.55rem .95rem;border:1px solid currentColor;border-radius:8px;text-decoration:none;line-height:1.3}
+}
