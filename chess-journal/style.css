@@ -58,3 +58,9 @@ details.reveal-box>summary,.played{color:#7fd6a3}
 .cover{max-width:15rem;border-radius:.4rem;box-shadow:0 2px 10px rgba(0,0,0,.35)}
 @media (prefers-color-scheme:dark){.callout{background:#22252b;color:#e7e7e7;border-color:#4a505b}}
 ol.games li{padding:.5rem 1rem}
+
+/* Phones and tablets: keep each board fully on screen, also when the phone is turned sideways */
+img:not(.cover){width:min(100%,36rem,calc(100vh - 1.5rem));width:min(100%,36rem,calc(100svh - 1.5rem))}
+img.cover{width:auto;max-width:100%;max-height:calc(100vh - 1.5rem);max-height:calc(100svh - 1.5rem)}
+/* long names (e.g. consultation games) wrap instead of pushing the page wider than the screen */
+ol.games li,.hdr,h1,.pager a{overflow-wrap:anywhere}

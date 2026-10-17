@@ -47,3 +47,6 @@ details.reveal-box>summary,.played{color:#7fd6a3}
 ol.games li.soon{opacity:.6}
 ol.games .name{font-size:1.2rem;font-weight:bold}
 ol.games{list-style:none}
+
+/* long names wrap instead of pushing the page wider than the screen */
+ol.games li{overflow-wrap:anywhere}
